@@ -1,0 +1,7 @@
+3,jk,pune,50000.0
+1,Karan,Pune,70000.0
+2,Harshad,Ahmedabad,60000.0
+3,kp,Haidrabad,50000.0
+4,jk,Haidrabad,60000.0
+8,jeet,pune,60000.0
+7,kkp,Ahmedabad,90000.0
