@@ -1,0 +1,7 @@
+customers={[
+	{"custId":1,"custName":"Karan","address":"Pune","accountBalance":70000},
+	{"custId":2,"custName":"Harshad","address":"Ahmedabad","accountBalance":80000},
+	{"custId":3,"custName":"Jay","address":"Haidrabad","accountBalance":40000},
+	{"custId":4,"custName":"Jeet","address":"Pune","accountBalance":50000},
+	{"custId":5,"custName":"Kp","address":"Mahesana","accountBalance":70000}
+]};
