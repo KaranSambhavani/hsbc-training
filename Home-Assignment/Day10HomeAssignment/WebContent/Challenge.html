@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function validate()
+{
+
+	var fnum=document.getElementById("fnum").value;
+	var snum=document.getElementById("snum").value;
+	
+	var a=0,b=0;
+	
+	if(fnum=='')
+	{
+		
+		document.getElementById("f").innerHTML="Enter number";
+	  
+	}
+	else
+	{
+	 a=1;
+	}
+	
+	if(snum=='')
+	{
+	  document.getElementById("s").innerHTML="Enter Number";
+	}
+	else
+	{
+	  b=1;
+	}
+	
+	if(a==1 && b==1)
+	{
+	 return true;
+	}
+	else
+	{
+	 return false;
+	}
+	
+}	
+ 
+</script>
+</head>
+<body>
+   
+   <form action="operation" method="post" onsubmit="return validate(this);">
+   
+      <table>
+          <tr>
+            <td colspan="2">Enter First Number</td>
+            <td colspan="2"><input type="text" name="fnum" id="fnum">
+            <b id="f" style="color:red"></b></td>
+            
+          </tr>
+			
+		 <tr>
+            <td colspan="2">Enter Second Number</td>
+            <td colspan="2"><input type="text" name="snum" id="snum">
+            <b id="s" style="color:red"></b></td>
+            
+          </tr>
+		  <tr></tr>
+		  <tr></tr>
+          <tr>
+          
+            <td><input type="submit" name="submit" value="add"></td>
+            <td><input type="submit" name="submit" value="multiply"></td>
+            <td><input type="submit" name="submit" value="devide"></td>
+            <td><input type="submit" name="submit" value="subtract"></td>
+          </tr>
+      </table>
+   
+   </form>
+ 
+</body>
+</html>
