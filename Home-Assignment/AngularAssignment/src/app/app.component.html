@@ -1,0 +1,8 @@
+<app-child [parentData]="message" (childEvent)="childData=$event"></app-child>
+
+<div>
+  <h1>Data Received from Child</h1>
+  <h2>{{childData}}</h2>
+</div>
+
+<app-emp></app-emp>
