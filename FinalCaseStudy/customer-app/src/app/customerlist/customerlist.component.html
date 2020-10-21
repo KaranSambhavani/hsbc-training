@@ -1,0 +1,18 @@
+<p>customerlist works!</p>
+
+<button (click)="listAll()">Show</button>
+
+<table border=3>
+    <tr>
+        <td>CustId</td>
+        <td>CustName</td>
+        <td>Mobile</td>
+    </tr>
+    <tr *ngFor='let c of list'>
+        <td>{{c.customerId}}</td>
+        <td>{{c.customerName}}</td>
+        <td>{{c.mobile}}</td>
+       
+    </tr>
+    
+</table>

@@ -1,0 +1,19 @@
+<p>customerbyid works!</p>
+
+<input type="text" name="name" value="" #inputData>
+<button (click)="custById(inputData.value)">Show By Id</button>
+
+<table border=3>
+    <tr>
+        <td>CustId</td>
+        <td>CustName</td>
+        <td>Mobile</td>
+    </tr>
+    <tr>
+        <td>{{customer.customerId}}</td>
+        <td>{{customer.customerName}}</td>
+        <td>{{customer.mobile}}</td>
+       
+    </tr>
+    
+</table>

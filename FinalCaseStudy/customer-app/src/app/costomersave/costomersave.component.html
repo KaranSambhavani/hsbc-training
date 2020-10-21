@@ -1,0 +1,10 @@
+<p>costomersave works!</p>
+
+
+<input type="text" name="customerId" value="" #inputData>
+<input type="text" name="customerName" value="" #inputData1>
+<input type="text" name="mobile" value="" #inputData2>
+
+<button (click)="custSave(inputData.value,inputData1.value,inputData2.value)">Save</button>
+
+<h3>{{status}}</h3>
